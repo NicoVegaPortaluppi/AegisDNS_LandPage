@@ -11,6 +11,14 @@ export function NavBar() {
       <Link to="/down">
         <Buttons> Downloads </Buttons>
       </Link>
+
+      <a
+        href="https://github.com/Zeviant/Capstone"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Buttons>Github</Buttons>
+      </a>
     </nav>
   );
 }
