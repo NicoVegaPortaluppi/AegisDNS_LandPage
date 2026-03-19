@@ -1,13 +1,15 @@
 import { Link } from "react-router";
+import { Buttons } from "./Buttons";
+
 export function NavBar() {
   return (
-    <nav className="flex gap-x-8 p-6 justify-center">
+    <nav className="flex gap-x-8 p-6  border-blue-500">
       <Link to="/">
-        <button className="text-4xl font-bold text-blue-400"> Home</button>
+        <Buttons>Home</Buttons>
       </Link>
 
       <Link to="/down">
-        <button className="text-4xl font-bold text-blue-400">Downloads </button>
+        <Buttons> Downloads </Buttons>
       </Link>
     </nav>
   );
