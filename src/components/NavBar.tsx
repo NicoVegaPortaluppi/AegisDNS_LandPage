@@ -1,9 +1,10 @@
 import { Link } from "react-router";
 import { Buttons } from "./Buttons";
+import aegisLogo from "../images/AegisDNS_Logo.png";
 
 export function NavBar() {
   return (
-    <nav className="flex gap-x-8 p-6  border-blue-500">
+    <nav className="pl-20 flex gap-x-8 p-6  border-blue-500 just pr-20">
       <Link to="/">
         <Buttons>Home</Buttons>
       </Link>
@@ -19,6 +20,17 @@ export function NavBar() {
       >
         <Buttons>Github</Buttons>
       </a>
+
+      <div className="flex-grow"></div>
+
+      <div className="flex items-center gap-x-4">
+        <h1 className="text-4xl font-bold text-[#3b82f6]">AegisDNS</h1>
+        <img
+          src={aegisLogo}
+          alt="AegisDNS Logo"
+          className="w-12 h-auto rounded-lg"
+        />
+      </div>
     </nav>
   );
 }
