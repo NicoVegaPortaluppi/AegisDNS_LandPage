@@ -13,6 +13,10 @@ const carouselImages = [
     src: "src/images/AegisProtocolANimation.png",
     alt: "Screenshot 3",
   },
+  {
+    src: "src/images/AegisExtension2.jpeg",
+    alt: "Screenshot 5",
+  },
 ];
 
 const features = [
@@ -42,8 +46,8 @@ const features = [
     title: "Broswer Extension",
     description:
       "The web extension is directly connected to the desktop application. It has three modes that allow users to personalize their experience with the extension.",
-    image: "src/images/AegisPacketSniffer.jpeg",
-    imageAlt: "Feature 3",
+    image: "src/images/AegisExtension1.jpeg",
+    imageAlt: "Feature 4",
     reverse: true,
   },
 ];
