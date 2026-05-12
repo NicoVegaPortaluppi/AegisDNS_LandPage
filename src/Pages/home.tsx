@@ -1,20 +1,29 @@
 import { useEffect, useRef, useState } from "react";
+import image1 from "../images/AegisAnalyzer.png";
+import image2 from "../images/AegisAnalyzerThread.png";
+import image3 from "../images/AegisProtocolANimation.png";
+import image4 from "../images/AegisExtension2.jpeg";
+
+import feature1 from "../images/AegisAnalyzer.png";
+import feature2 from "../images/AegisAIAnalysis.jpeg";
+import feature3 from "../images/AegisPacketSniffer.jpeg";
+import feature4 from "../images/AegisExtension1.jpeg";
 
 const carouselImages = [
   {
-    src: "src/images/AegisAnalyzer.png",
+    src: image1,
     alt: "Screenshot 1",
   },
   {
-    src: "src/images/AegisAnalyzerThread.png",
+    src: image2,
     alt: "Screenshot 2",
   },
   {
-    src: "src/images/AegisProtocolANimation.png",
+    src: image3,
     alt: "Screenshot 3",
   },
   {
-    src: "src/images/AegisExtension2.jpeg",
+    src: image4,
     alt: "Screenshot 5",
   },
 ];
@@ -24,14 +33,14 @@ const features = [
     title: "URL Analyzer",
     description:
       "AegisDNS includes an integrated analyzer to notify users of the security risks associated with the sites they access.",
-    image: "src/images/AegisAnalyzer.png",
+    image: feature1,
     imageAlt: "Feature 1",
   },
   {
     title: "AI Analysis",
     description:
       "The AegisDNS AI analysis is a highly effective tool for everyday users. It explains complex technical data in simple terms, making the application significantly more accessible to everyone.",
-    image: "src/images/AegisAIAnalysis.jpeg",
+    image: feature2,
     imageAlt: "Feature 2",
     reverse: true,
   },
@@ -39,14 +48,14 @@ const features = [
     title: "Packet Sniffer",
     description:
       "The packet sniffer graph is an additional functionality that works alongside the analyzer. It offers users the ability to easily observe their packet traffic and stay aware of any strange behavior.",
-    image: "src/images/AegisPacketSniffer.jpeg",
+    image: feature3,
     imageAlt: "Feature 3",
   },
   {
     title: "Broswer Extension",
     description:
       "The web extension is directly connected to the desktop application. It has three modes that allow users to personalize their experience with the extension.",
-    image: "src/images/AegisExtension1.jpeg",
+    image: feature4,
     imageAlt: "Feature 4",
     reverse: true,
   },
