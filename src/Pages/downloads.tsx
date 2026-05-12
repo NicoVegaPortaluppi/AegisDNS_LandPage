@@ -58,7 +58,7 @@ export function Downloads() {
       </h1>
       <div className="w-16 h-1 bg-[#3b82f6] mx-auto rounded-full  mb-16" />
       <div className="flex flex-col md:flex-row gap-8 w-full max-w-3xl">
-        {/* Chrome */}
+        {/* Browser Extension */}
         <a
           href="#windows-download-link"
           className="flex-1 bg-[#0f172a] rounded-xl p-10 flex flex-col items-center gap-5 border border-[#1e293b] hover:border-[#3b82f6] transition-colors group"
