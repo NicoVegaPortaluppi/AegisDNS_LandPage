@@ -10,7 +10,7 @@ export function NavBar() {
       </Link>
 
       <Link to="/down">
-        <Buttons> Downloads </Buttons>
+        <Buttons> Download </Buttons>
       </Link>
 
       <a

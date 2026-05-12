@@ -89,7 +89,21 @@ function Carousel() {
   );
 }
 
-function FeatureRow({ title, description, image, imageAlt, reverse }) {
+interface FeatureRowProps {
+  title: string;
+  description: string;
+  image: string;
+  imageAlt: string;
+  reverse?: boolean;
+}
+
+function FeatureRow({
+  title,
+  description,
+  image,
+  imageAlt,
+  reverse = false,
+}: FeatureRowProps) {
   const [visible, setVisible] = useState(false);
   const ref = useRef(null);
 

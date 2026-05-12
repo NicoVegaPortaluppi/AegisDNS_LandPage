@@ -1,6 +1,6 @@
 export function Downloads() {
   return (
-    <div className="bg-[#020817] text-white min-h-screen flex flex-col items-center pt-20 px-8 pb-20">
+    <div className="bg-[#020817] text-white min-h-screen flex flex-col items-center pt-10 px-8 pb-20">
       <h1 className="text-6xl font-bold text-white mb-2">Download</h1>
       <div className="w-16 h-1 bg-[#3b82f6] mx-auto rounded-full  mb-16" />
       <div className="flex flex-col md:flex-row gap-8 w-full max-w-3xl">
